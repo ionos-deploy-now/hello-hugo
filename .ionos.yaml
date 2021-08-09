@@ -1,7 +1,7 @@
 ---
 distFolder: public
 setup:
-- name: Setup Hugo
+- name: Setup project
   action: peaceiris/actions-hugo@v2
   properties:
     extended: true
