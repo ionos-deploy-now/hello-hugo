@@ -5,10 +5,13 @@ other = "Mehr"
 other = "Alle {{.Title }}"
 
 [recentTitle]
-other = "Neuste {{.Title }}"
+other = "Neueste {{.Title }}"
 
 [readMore]
 other = "weiterlesen"
+
+[by]
+other = "Von"
 
 [whatsInThis]
 other = "Was ist in dieser {{ .Type }}"
@@ -32,4 +35,15 @@ other = "Eine Email Adresse wird benötigt."
 other = "Senden"
 
 [taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+other = "Beiträge zum Thema “{{ .Title }}”"
+
+[readingTime]
+one = "Eine Minute"
+other = "{{ .Count }} Minuten"
+
+[wordCount]
+one = "Ein Wort"
+other = "{{ .Count }} Wörter"
+
+[pageTitle]
+other = "{{ .Name }} Seite"

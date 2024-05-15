@@ -10,6 +10,9 @@ other = "Recent {{.Title }}"
 [readMore]
 other = "read more"
 
+[by]
+other = "By"
+
 [whatsInThis]
 other = "What's in this {{ .Type }}"
 
@@ -33,3 +36,14 @@ other = "Send"
 
 [taxonomyPageList]
 other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+
+[readingTime]
+one = "One minute read"
+other = "{{ .Count }} minutes read"
+
+[wordCount]
+one = "One word"
+other = "{{ .Count }} words"
+
+[pageTitle]
+other = "{{ .Name }} page"
